@@ -115,7 +115,7 @@ button {
   flex-wrap: nowrap;
   flex-grow: 0.5;
 
-  justify-content: space-evenly;
+  
 }
 
 .gamesButton1,
@@ -163,6 +163,10 @@ button {
   background-image: url(images/rocketImg.png);
 }
 
+.gamesButton3
+{
+  background-image: url(images/Solar.png);
+}
 footer {
   background-color: black;
   height: 30px;
