@@ -125,7 +125,7 @@ button {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin: 30px;
+  margin: 30px auto;
   width: 230px;
   height: 300px;
   font-size: 20px;  
@@ -149,8 +149,10 @@ button {
   background-size: cover;
   font-weight: bolder;
   font-size: xx-large;
+}
 
-
+h4 {
+  text-align: center; /* centers the text under the buttons */
 }
 
 .gamesButton1
@@ -167,6 +169,13 @@ button {
 {
   background-image: url(images/Solar.png);
 }
+
+.video-section video {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  border-radius: 8px;
+}
+
 footer {
   background-color: black;
   height: 30px;
@@ -176,5 +185,6 @@ footer {
   color: white;
   position: fixed;
   bottom: 0;
+  padding: 10px 0;
   width: 100%;
 }
